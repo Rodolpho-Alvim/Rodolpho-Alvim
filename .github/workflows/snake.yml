@@ -33,4 +33,4 @@ jobs:
           add: "dist/snake.svg"
           push: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Usando o token padrão do GitHub Actions
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # Usando o token padrão do GitHub Actions
