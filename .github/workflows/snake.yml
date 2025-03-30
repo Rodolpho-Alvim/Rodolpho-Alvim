@@ -25,7 +25,7 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           message: "Atualizando Snake Animation"
-          add: "output/snake.svg"  # Agora, o arquivo estará em 'output/'
+          add: "main/output/snake.svg"  # Agora, o arquivo estará em 'output/'
           push: true
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
