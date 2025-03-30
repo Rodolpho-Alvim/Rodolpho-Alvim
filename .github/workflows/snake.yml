@@ -1,16 +1,19 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Atualiza uma vez por dia
+  workflow_dispatch:  # Permite executar manualmente
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Configurar Git
-        run: |
-          git config --global user.name "Rodolpho-Alvim"
-          git config --global user.email "Rodolpho-Alvim@users.noreply.github.com"
-    
       - name: Checkout do repositório
         uses: actions/checkout@v3
         with:
-          repository: Rodolpho-Alvim/Rodolpho-Alvim  # Nome do repositório com o nome do perfil
+          token: ${{ secrets.PAT_TOKEN }}  # Usando o PAT para autenticar o checkout do repositório
 
       - name: Gerar animação Snake
         uses: Platane/snk@v3
@@ -19,13 +22,6 @@ jobs:
           outputs: |
             dist/snake.svg
 
-      - name: Configurar chave SSH
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-    
       - name: Commit e push do arquivo gerado
         uses: EndBug/add-and-commit@v9
         with:
@@ -33,4 +29,4 @@ jobs:
           add: "dist/snake.svg"
           push: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Ou use o PAT se necessário
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # Usando o PAT para commit e push no repositório
