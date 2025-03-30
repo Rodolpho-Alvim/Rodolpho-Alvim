@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v3
+        with:
+          repository: Rodolpho-Alvim/Rodolpho-Alvim  # Nome do repositório com o nome do perfil
 
       - name: Gerar animação Snake
         uses: Platane/snk@v3
@@ -25,6 +27,5 @@ jobs:
           message: "Atualizando Snake Animation"
           add: "dist/snake.svg"
           push: true
-        env: 
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-            
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Usando o token padrão do GitHub Actions
