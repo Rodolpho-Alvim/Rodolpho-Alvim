@@ -13,7 +13,7 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.PAT_TOKEN }}  # Usando o PAT para autenticar o checkout do repositório
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Gerar animação Snake
         uses: Platane/snk@v3
@@ -22,11 +22,15 @@ jobs:
           outputs: |
             dist/snake.svg
 
+      - name: Mover o arquivo gerado para o diretório correto
+        run: |
+          mv dist/snake.svg output/snake.svg
+
       - name: Commit e push do arquivo gerado
         uses: EndBug/add-and-commit@v9
         with:
           message: "Atualizando Snake Animation"
-          add: "dist/snake.svg"
+          add: "output/snake.svg"  # Caminho correto do arquivo
           push: true
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # Usando o PAT para commit e push no repositório
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
