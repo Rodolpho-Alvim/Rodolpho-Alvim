@@ -19,13 +19,13 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: Rodolpho-Alvim
-          outputs: "main/output/snake.svg"  # Forçando a saída do arquivo diretamente para o diretório 'output/'
+          outputs: "output/snake.svg"  # Forçando a saída do arquivo diretamente para o diretório 'output/'
 
       - name: Commit e push do arquivo gerado
         uses: EndBug/add-and-commit@v9
         with:
           message: "Atualizando Snake Animation"
-          add: "main/output/snake.svg"  # Agora, o arquivo estará em 'output/'
+          add: "output/snake.svg"  # Agora, o arquivo estará em 'output/'
           push: true
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
