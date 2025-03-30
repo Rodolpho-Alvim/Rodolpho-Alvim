@@ -46,7 +46,7 @@
 
 ### 🐍 Snake Animation  
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Rodolpho-Alvim/Rodolpho-Alvim/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/Rodolpho-Alvim/Rodolpho-Alvim/main/output/snake.svg" alt="Snake animation" />
 </div>
 
 ---
