@@ -9,6 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Configurar Git
+        run: |
+          git config --global user.name "Rodolpho-Alvim"
+          git config --global user.email "Rodolpho-Alvim@users.noreply.github.com"
+    
       - name: Checkout do repositório
         uses: actions/checkout@v3
         with:
