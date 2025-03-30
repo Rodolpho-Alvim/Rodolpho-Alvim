@@ -11,10 +11,10 @@
 
 ### 📊 Estatísticas do GitHub  
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=XxRodolphoxX&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=pt-br&hide_border=false&order=1" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=XxRodolphoxX&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="Linguagens mais usadas" />
-  <img src="https://github-profile-trophy.vercel.app/?username=XxRodolphoxX&theme=dracula&column=3&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="Troféus do GitHub" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=XxRodolphoxX&radius=16&theme=react-dark&area=true&order=5" height="300" alt="Gráfico de atividades" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Rodolpho-Alvim&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=pt-br&hide_border=false&order=1" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Rodolpho-Alvim&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="Linguagens mais usadas" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Rodolpho-Alvim&theme=dracula&column=3&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="Troféus do GitHub" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rodolpho-Alvim&radius=16&theme=react-dark&area=true&order=5" height="300" alt="Gráfico de atividades" />
 </div>
 
 ---
@@ -46,12 +46,12 @@
 
 ### 🐍 Snake Animation  
 <div align="center">
-  <img src="https://raw.githubusercontent.com/XxRodolphoxX/XxRodolphoxX/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/Rodolpho-Alvim/Rodolpho-Alvim/output/snake.svg" alt="Snake animation" />
 </div>
 
 ---
 
 ### 🎯 Contador de Visitantes  
 <div align="center">
-  <img src="https://profile-counter.glitch.me/XxRodolphoxX/count.svg?" />
+  <img src="https://profile-counter.glitch.me/Rodolpho-Alvim/count.svg?" />
 </div>
