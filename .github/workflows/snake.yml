@@ -19,18 +19,13 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: Rodolpho-Alvim
-          outputs: |
-            dist/snake.svg
-
-      - name: Mover o arquivo gerado para o diretório correto
-        run: |
-          mv dist/snake.svg output/snake.svg
+          outputs: "output/snake.svg"  # Forçando a saída do arquivo diretamente para o diretório 'output/'
 
       - name: Commit e push do arquivo gerado
         uses: EndBug/add-and-commit@v9
         with:
           message: "Atualizando Snake Animation"
-          add: "output/snake.svg"  # Caminho correto do arquivo
+          add: "output/snake.svg"  # Agora, o arquivo estará em 'output/'
           push: true
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
