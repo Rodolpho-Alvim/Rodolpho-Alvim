@@ -37,7 +37,7 @@
   <a href="https://x.com/rodolpho_alvim" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
   </a>
-  <a href="rodolpho_carvalho@live.com" target="mailto:">
+  <a href="mailto:rodolpho_carvalho@live.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </div>
