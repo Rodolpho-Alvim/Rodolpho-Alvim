@@ -1,4 +1,6 @@
 <h1 align="center">E aí 👋! Rodolpho Alvim por aqui!<br/>www.rodolphoalvim.com.br</h1>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Rodolpho-Alvim&title=Visitantes" />
+
 
 ---
 
@@ -49,9 +51,3 @@
   <img src="https://raw.githubusercontent.com/Rodolpho-Alvim/Rodolpho-Alvim/main/output/snake.svg" alt="Snake animation" />
 </div>
 
----
-
-### 🎯 Contador de Visitantes  
-<div align="center">
-<img src="https://komarev.com/ghpvc/?username=Rodolpho-Alvim&label=Profile%20Views&color=blue" />
-</div>
