@@ -1,6 +1,7 @@
 <h1 align="center">E aí 👋! Rodolpho Alvim por aqui!<br/>www.rodolphoalvim.com.br</h1>
+<div align="center">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=Rodolpho-Alvim&title=Visitantes" />
-
+</div> 
 
 ---
 
