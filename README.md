@@ -53,5 +53,5 @@
 
 ### 🎯 Contador de Visitantes  
 <div align="center">
-  <img src="https://profile-counter.glitch.me/Rodolpho-Alvim/count.svg?" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Rodolpho-Alvim" />
 </div>
