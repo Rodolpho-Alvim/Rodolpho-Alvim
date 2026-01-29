@@ -53,5 +53,5 @@
 
 ### 🎯 Contador de Visitantes  
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Rodolpho-Alvim" />
+<img src="https://komarev.com/ghpvc/?username=Rodolpho-Alvim&label=Profile%20Views&color=blue" />
 </div>
