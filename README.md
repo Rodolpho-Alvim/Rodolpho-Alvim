@@ -6,6 +6,7 @@
 ---
 
 ### 🚀 Sobre mim
+
 💻 Desenvolvedor Full Stack focado na criação de aplicações web modernas, performáticas e escaláveis.
 ⚛️ Trabalho com Next.js, React e TypeScript, atuando desde a interface até integrações com APIs e banco de dados.
 🧠 Experiência na construção de dashboards, sistemas web e soluções orientadas a dados.
